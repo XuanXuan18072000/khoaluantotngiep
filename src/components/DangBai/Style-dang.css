@@ -1,0 +1,122 @@
+.post__container {
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    margin-left: -1px;
+    margin-right: -1px;
+    background-color: #fff;
+    width: 600px;
+    margin: 32px auto;
+    margin-top: 100px;
+}
+
+.post__headerbaidang {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #efefef;
+    margin-top: 50px;
+}
+.post__containerdang .post__avatar{
+    padding: 14px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #f5c3e8;
+}
+
+.post__containerdang .post__avatar .avatar-img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.post__header--block-right {
+    margin-left: 14px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-shrink: 1;
+    overflow: hidden;
+}
+
+.post__header--username a {
+    color: #262626;
+    font-weight: 600;
+}
+
+.post__header--more-option i.bx-dots-horizontal-rounded {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.post__image {
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+.post__image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.post__image span {
+    font-size: 35px; 
+    color: #262626; 
+}
+
+
+.post__groupdangbai {
+    width: 250px; 
+    height: 450px;
+    
+}
+.post__groupdangbai .iconhinh {
+    font-size: 150px;
+    color: #cfc7c7; 
+    margin-top: 50px;
+    margin-left: 225px;
+}
+
+
+.post__dangbai {
+    margin-top: 4px;
+    border-top: 1px solid #efefef;
+    color: #8e8e8e;
+    max-height: 56px;
+    padding: 13px 0;
+}
+
+.post__dangbai form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+.post__dangbai form input {
+    width: 950px;
+    height: 50px;
+    padding: 9px;
+    outline: none;
+    border: none;
+    
+}
+
+.btn-post-comment {
+    
+    color: #f053a9;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 500px;
+    margin-top: 300px;
+    border: none;
+    
+    
+}
+
