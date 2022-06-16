@@ -2,6 +2,7 @@ import React from "react";
 import "./Style-dang.css";
 import HinhDang from "./assetss/avatar.jpg";
 import { Icon } from '@iconify/react';
+import { Link } from 'react-router-dom'
 
 
 export default function PostItem() {
@@ -23,12 +24,14 @@ export default function PostItem() {
                 <input type="text" placeholder="Nhập nội dung..." />
                 
             </form>
+            <div className="nutdangbai">
+            <Link to="/" className="hieuchinh"> Đăng </Link>
+            </div>
             
-            <button className="btn btn-post-comment">Đăng</button>
             
         </div>
           <div className="iconhinh">
-            <Icon icon="icon-park-outline:add-picture" />
+           <Link to="/" className="mauicon"> <Icon icon="icon-park-outline:add-picture" /> </Link> 
           </div>
        
         {/* image */}

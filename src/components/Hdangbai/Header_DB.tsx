@@ -14,7 +14,7 @@ export default function Header() {
         </div>
 
         <div className="logout">
-          <Link to="/login"> <Icon icon="icon-park-outline:logout" />
+          <Link to="/"> <Icon icon="ri:arrow-go-back-line" />
           </Link>
            
         </div>

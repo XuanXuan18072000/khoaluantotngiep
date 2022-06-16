@@ -108,15 +108,26 @@
     
 }
 
-.btn-post-comment {
-    
-    color: #f053a9;
-    font-size: 25px;
-    font-weight: 600;
-    margin-left: 500px;
-    margin-top: 300px;
-    border: none;
+.nutdangbai {  
     
     
+    margin-left: 480px;
+    margin-top: 270px;
+    display: flex;
+   justify-content: space-between;
 }
+.hieuchinh {
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-weight: 600;
+  color: #f053a9;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 28px;
+  text-decoration: none;
+  align-items: center;
 
+}
+.mauicon {
+    color: #beacb6;
+}
